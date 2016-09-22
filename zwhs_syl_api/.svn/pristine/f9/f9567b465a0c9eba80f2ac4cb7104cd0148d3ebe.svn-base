@@ -1,0 +1,55 @@
+package cn.org.citycloud.zwhs.syl.bean;
+
+
+public class ServiceProviderSearchBean {
+	
+	private Integer pageNo = 1;
+	
+	private Integer pageSize = 10;
+	
+	private String provider_alias_name;
+	
+	private Integer provider_state;
+
+
+	public Integer getPageNo() {
+		return pageNo;
+	}
+
+
+	public void setPageNo(Integer pageNo) {
+		this.pageNo = pageNo;
+	}
+
+
+	public Integer getPageSize() {
+		return pageSize;
+	}
+
+
+	public void setPageSize(Integer pageSize) {
+		this.pageSize = pageSize;
+	}
+
+
+	public String getProvider_alias_name() {
+		return provider_alias_name;
+	}
+
+
+	public void setProvider_alias_name(String provider_alias_name) {
+		this.provider_alias_name = provider_alias_name;
+	}
+
+
+	public Integer getProvider_state() {
+		return provider_state;
+	}
+
+
+	public void setProvider_state(Integer provider_state) {
+		this.provider_state = provider_state;
+	}
+	
+	
+}
